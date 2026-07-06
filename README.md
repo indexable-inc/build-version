@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/build-version`](https://github.com/indexable-inc/build-version) is a read-only mirror, generated from [`packages/build-version`](https://github.com/indexable-inc/index/tree/9043f3253b1a13366f4d43c6b48f8080078a94f9/packages/build-version) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `9043f3253b1a`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/build-version`](https://github.com/indexable-inc/build-version) is a read-only mirror, generated from [`packages/build-version`](https://github.com/indexable-inc/index/tree/cdbf30fbc2b3d18d95401f32c94c18b9eac178e5/packages/build-version) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `cdbf30fbc2b3`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 # build-version
 
@@ -38,3 +38,14 @@ wrapper sets them from `ix.rev` / `ix.revEpoch` (see
 
 - [doc/build-version/overview.md](https://github.com/indexable-inc/index/blob/main/doc/build-version/overview.md)
   — from-source documentation.
+
+## Install
+
+`build-version` is not on crates.io; add it as a git dependency:
+
+```toml
+[dependencies]
+build-version = { git = "https://github.com/indexable-inc/build-version" }
+```
+
+Changes: [CHANGELOG.md](CHANGELOG.md), derived from the [monorepo history](https://github.com/indexable-inc/index/commits/main/packages/build-version) of the package.
