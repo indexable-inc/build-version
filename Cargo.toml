@@ -1,0 +1,10 @@
+[package]
+name = "build-version"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Format a binary's --version line from Nix-stamped build metadata"
+license = "MIT"
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["alloc"] }
