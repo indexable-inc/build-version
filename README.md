@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/build-version`](https://github.com/indexable-inc/build-version) is a read-only mirror, generated from [`packages/build-version`](https://github.com/indexable-inc/index/tree/e2013ab6e0b8b1dc6739b10988bc8a0468a4b55f/packages/build-version) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `e2013ab6e0b8`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/build-version`](https://github.com/indexable-inc/build-version) is a read-only mirror, generated from [`packages/build-version`](https://github.com/indexable-inc/index/tree/446336509051c3b85fb099bab4eb3321f56e97bf/packages/build-version) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `446336509051`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 # build-version
 
